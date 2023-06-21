@@ -2,7 +2,7 @@ import Link from "next/link";
 import { TagContent } from "../../lib-en/tags";
 
 type Props = {
-  tag: TagContent;
+  tag: TagContentEn;
 };
 export default function Tag({ tag }: Props) {
   return (

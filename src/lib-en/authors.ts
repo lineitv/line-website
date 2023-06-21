@@ -1,4 +1,4 @@
-import authorsen from "../../meta/authors-en.yml";
+import authorsen from "../../meta/authorsen.yml";
 
 export type AuthorContent = {
   readonly slug: string;

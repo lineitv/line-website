@@ -1,14 +1,14 @@
 import tagsen from "../../meta/tagsen.yml";
 
-export type TagContent = {
+export type TagContentEn = {
   readonly slug: string;
   readonly name: string;
 };
 
-const tagMap: { [key: string]: TagContent } = generateTagMap();
+const tagMap: { [key: string]: TagContentEn } = generateTagMap();
 
-function generateTagMap(): { [key: string]: TagContent } {
-  let result: { [key: string]: TagContent } = {};
+function generateTagMap(): { [key: string]: TagContentEn } {
+  let result: { [key: string]: TagContentEn } = {};
   for (const tag of tags.tags) {
     result[tag.slug] = tag;
   }

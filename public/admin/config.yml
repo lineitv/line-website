@@ -187,12 +187,12 @@ collections:
     editor:
       preview: false
     files:
-      - name: "authors"
+      - name: "authorsen"
         label: "AuthorsEn"
-        file: "meta-en/authors.yml"
+        file: "meta/authors-en.yml"
         description: "Author descriptions"
         fields:
-          - name: authors
+          - name: authorsen
             label: AuthorsEn
             label_singular: "Author"
             widget: list
@@ -208,9 +208,9 @@ collections:
               - label: "Introduction"
                 name: "introduction"
                 widget: "text"
-      - name: "tags"
+      - name: "tagsen"
         label: "TagsEn"
-        file: "meta-en/tags.yml"
+        file: "meta/tags-en.yml"
         description: "List of tags"
         fields:
           - name: tags

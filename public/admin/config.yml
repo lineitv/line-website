@@ -189,7 +189,7 @@ collections:
     files:
       - name: "authorsen"
         label: "AuthorsEn"
-        file: "meta/authors-en.yml"
+        file: "meta/authorsen.yml"
         description: "Author descriptions"
         fields:
           - name: authorsen
@@ -210,7 +210,7 @@ collections:
                 widget: "text"
       - name: "tagsen"
         label: "TagsEn"
-        file: "meta/tags-en.yml"
+        file: "meta/tagsen.yml"
         description: "List of tags"
         fields:
           - name: tags

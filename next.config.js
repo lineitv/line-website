@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  assetPrefix: isProd ? 'https://res.cloudinary.com' : undefined,
+  assetPrefix:'https://res.cloudinary.com',
   reactStrictMode: true,
   images: {
     unoptimized: true,

@@ -9,7 +9,7 @@ const tagMap: { [key: string]: TagContentEn } = generateTagMap();
 
 function generateTagMap(): { [key: string]: TagContentEn } {
   let result: { [key: string]: TagContentEn } = {};
-  for (const tag of tags.tags) {
+  for (const tag of tagsen.tagsen) {
     result[tag.slug] = tag;
   }
   return result;

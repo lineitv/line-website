@@ -7,7 +7,7 @@ import { SiGooglelens } from "react-icons/si"
 import { BiPhoneCall } from "react-icons/bi"
 import { HiArrowTrendingUp } from "react-icons/hi2"
 import { HiMenuAlt3 } from "react-icons/hi"
-import { CldImage, CldOgImage } from 'next-cloudinary';
+import image from 'next/image';
 import Link from "next/link"
 const products = [
   { name: 'تطوير المواقع', description: 'ابني لنشاطك التجاري موقع إلكتروني', href: '/services/web-development-company', icon: AiOutlineLaptop },
@@ -35,8 +35,8 @@ export default function Header(en: any) {
           <Link href="/">
             <a className="-m-1.5 p-1.5">
             <span className="sr-only">شركة لاين أي تي : أفضل شركة تصميم مواقع وتطبيقات في مصر</span>
-              <CldOgImage src="https://res.cloudinary.com/dzxbbqq4l/image/upload/v1687041011/logo_lineit.webp" width={200} height={200} alt="لوجو عربي شركة لاين أي تي: أفضل شركة تصميم مواقع وتطبيقات في مصر" objectFit="cover" />
-              <CldImage src="https://res.cloudinary.com/dzxbbqq4l/image/upload/v1687041011/logo_lineit.webp" width={200} height={200} alt="لوجو عربي شركة لاين أي تي: أفضل شركة تصميم مواقع وتطبيقات في مصر" objectFit="cover" />
+              <Image src="https://res.cloudinary.com/dzxbbqq4l/image/upload/v1687041011/logo_lineit.webp" width={200} height={200} alt="لوجو عربي شركة لاين أي تي: أفضل شركة تصميم مواقع وتطبيقات في مصر" objectFit="cover" />
+              <Image src="https://res.cloudinary.com/dzxbbqq4l/image/upload/v1687041011/logo_lineit.webp" width={200} height={200} alt="لوجو عربي شركة لاين أي تي: أفضل شركة تصميم مواقع وتطبيقات في مصر" objectFit="cover" />
             </a>
           </Link>
         </div>
@@ -135,7 +135,7 @@ export default function Header(en: any) {
             <Link href="/">
               <a className="-m-1.5 p-1.5">
                 <span className="sr-only">شركة لاين أي تي : أفضل شركة تصميم مواقع وتطبيقات في مصر</span>
-                <CldImage src="https://res.cloudinary.com/dzxbbqq4l/image/upload/v1687041011/logo_lineit.webp" width={200} height={200} alt="لوجو عربي شركة لاين أي تي: أفضل شركة تصميم مواقع وتطبيقات في مصر" objectFit="cover" />
+                <Image src="https://res.cloudinary.com/dzxbbqq4l/image/upload/v1687041011/logo_lineit.webp" width={200} height={200} alt="لوجو عربي شركة لاين أي تي: أفضل شركة تصميم مواقع وتطبيقات في مصر" objectFit="cover" />
               </a>
             </Link>
             <button

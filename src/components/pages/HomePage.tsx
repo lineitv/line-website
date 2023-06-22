@@ -5,7 +5,6 @@ import HeroImage from "../../../public/images/talk.png";
 import Link from "next/link";
 import "animate.css"
 import { motion, Variants } from "framer-motion";
-import { CldImage, CldOgImage } from "next-cloudinary";
 
 const imageAnimate={
   offscreen:{x:-100, opacity:0},
@@ -48,8 +47,7 @@ function HomePage() {
       <motion.div 
         variants={item}
         className="md:mr-10 lg:ml-30 md:ml-20  order-first">
-        <CldOgImage src="https://res.cloudinary.com/dzxbbqq4l/image/upload/v1687041011/banner_ar.webp" width={2000} height={2000} alt="بانر شركة لاين أي تي: أفضل شركة تصميم مواقع وتطبيقات في مصر" objectFit="cover" />
-        <CldImage src="https://res.cloudinary.com/dzxbbqq4l/image/upload/v1687041011/banner_ar.webp" width={2000} height={2000} alt="بانر شركة لاين أي تي: أفضل شركة تصميم مواقع وتطبيقات في مصر" objectFit="cover" />
+        <Image src="https://res.cloudinary.com/dzxbbqq4l/image/upload/v1687041011/banner_ar.webp" width={2000} height={2000} alt="بانر شركة لاين أي تي: أفضل شركة تصميم مواقع وتطبيقات في مصر" objectFit="cover" />
       </motion.div>
       {/* textual area */}
       <div className="flex flex-col items-start justify-start md:mr-36 md:w-[-webkit-fill-available] mx-10 mt-10 md:mt-0">

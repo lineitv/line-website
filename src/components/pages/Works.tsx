@@ -122,7 +122,7 @@ export function WebWork() {
                     initial="hidden"
                     whileInView="visible"
   viewport={{ once: true }} key={work.name} className="bg-white md:ml-8 sm:ml-0 pb-4 relative cursor-pointer rounded-lg text-center transition-all shadow-black hover:shadow-md">
-                      <Link href={`${work.link}`}><motion.div variants={item} ><CldImage className="rounded-lg" src={`${work.image}`} width={2000} height={1500} alt={`${work.name} صممت بواسطة لاين اي تي - أفضل شركة تصميم مواقع وتطبيقات في مصر والوطن العربي`} objectFit="cover" /></motion.div></Link>
+                      <Link href={`${work.link}`}><motion.div variants={item} ><Image className="rounded-lg" src={`${work.image}`} width={2000} height={1500} alt={`${work.name} صممت بواسطة لاين اي تي - أفضل شركة تصميم مواقع وتطبيقات في مصر والوطن العربي`} objectFit="cover" /></motion.div></Link>
                       <div className="flex justify-center">
                         <a target="_blank" href={`${work.website}`} className="flex justify-center items-center font-semibold ml-2 px-5 py-2 bg-[#E84E36] rounded-lg text-white shadow-lg">
                             معاينة الموقع <FaLink className="mr-1" />

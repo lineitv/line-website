@@ -1,4 +1,4 @@
-import authors from "../../meta/authors.yml";
+import authors from "../../meta/authorsen.yml";
 
 const authorMap = generateAuthorMap();
 

@@ -3,11 +3,11 @@ import { PostContent } from "../../lib-en/posts";
 import PostItem from "./PostItem";
 import TagLink from "./TagLink";
 import Pagination from "./Pagination";
-import { TagContentEn } from "../../lib-en/tags";
+import { TagContent } from "../../lib/ty";
 import Link from "next/link";
 type Props = {
   posts: PostContent[];
-  tags: TagContentEn[];
+  tags: TagContent[];
   pagination: {
     current: number;
     pages: number;

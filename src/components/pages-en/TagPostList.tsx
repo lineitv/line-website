@@ -1,12 +1,12 @@
 import React from "react";
 import { PostContent } from "../../lib-en/posts";
-import { TagContentEn } from "../../lib-en/tags";
+import { TagContent } from "../../lib/ty";
 import PostItem from "./PostItem";
 import Pagination from "./Pagination";
 
 type Props = {
   posts: PostContent[];
-  tag: TagContentEn;
+  tag: TagContent;
   pagination: {
     current: number;
     pages: number;

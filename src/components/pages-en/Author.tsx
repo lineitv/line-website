@@ -1,7 +1,7 @@
-import { AuthorContentEn } from "../../lib-en/authors";
+import { AuthorContent } from "../../lib-en/authors";
 
 type Props = {
-  author: AuthorContentEn;
+  author: AuthorContent;
 };
 export default function Author({ author }: Props) {
   return (

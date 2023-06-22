@@ -7,7 +7,7 @@ import { SiGooglelens } from "react-icons/si"
 import { BiPhoneCall } from "react-icons/bi"
 import { HiArrowTrendingUp } from "react-icons/hi2"
 import { HiMenuAlt3 } from "react-icons/hi"
-import image from 'next/image';
+import Image from 'next/image';
 import Link from "next/link"
 const products = [
   { name: 'تطوير المواقع', description: 'ابني لنشاطك التجاري موقع إلكتروني', href: '/services/web-development-company', icon: AiOutlineLaptop },

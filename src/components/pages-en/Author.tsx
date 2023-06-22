@@ -1,4 +1,4 @@
-import { AuthorContent } from "../../lib-en/ty";
+import { AuthorContent } from "../../lib/ty";
 
 type Props = {
   author: AuthorContent;

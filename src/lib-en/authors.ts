@@ -1,16 +1,16 @@
-import authorsen from "../../meta/authorsen.yml";
+import authorsen from "../../meta/authors.yml";
 
-export type AuthorContentEn = {
+export type AuthorContent = {
   readonly slug: string;
   readonly name: string;
   readonly introduction: string;
 };
 
-const authorMap: { [key: string]: AuthorContentEn } = generateAuthorMap();
+const authorMap: { [key: string]: AuthorContent } = generateAuthorMap();
 
-function generateAuthorMap(): { [key: string]: AuthorContentEn } {
-  let result: { [key: string]: AuthorContentEn } = {};
-  for (const author of authorsen.authorsen) {
+function generateAuthorMap(): { [key: string]: AuthorContent } {
+  let result: { [key: string]: AuthorContent } = {};
+  for (const author of authors.authors) {
     result[author.slug] = author;
   }
   return result;

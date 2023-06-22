@@ -5,7 +5,8 @@ import TwitterCardMeta from "../../../components/meta/TwitterCardMeta";
 import TagPostList from "../../../components/pages/TagPostList";
 import config from "../../../lib/config";
 import { countPosts, listPostContent, PostContent } from "../../../lib/posts";
-import { getTag, listTags, TagContent } from "../../../lib/tags";
+import { getTag, listTags } from "../../../lib/tags";
+import { TagContent } from "../../../lib/ty";
 import Navbar from "../../../components/pages/Navbar";
 
 type Props = {
@@ -60,7 +61,7 @@ export const getStaticProps: GetStaticProps = async ({ params }: any) => {
 };
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const paths = listTags().flatMap((tag) => {
+  const paths = listTags().flatMap((tag: any) => {
     const pages = Math.ceil(countPosts(tag.slug) / config.posts_per_page);
     return Array.from(Array(pages).keys()).map((page) =>
       page === 0

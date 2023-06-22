@@ -10,7 +10,7 @@ const authorMap: { [key: string]: AuthorContentEn } = generateAuthorMap();
 
 function generateAuthorMap(): { [key: string]: AuthorContentEn } {
   let result: { [key: string]: AuthorContentEn } = {};
-  for (const author of authors.authors) {
+  for (const author of authorsen.authorsen) {
     result[author.slug] = author;
   }
   return result;
